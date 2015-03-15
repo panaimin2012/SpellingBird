@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="game_rows_entries">
+        <item>5 ROWS</item>
+        <item>6 ROWS</item>
+        <item>7 ROWS</item>
+        <item>8 ROWS</item>
+        <item>9 ROWS</item>
+        <item>10 ROWS</item>
+    </string-array>
+    <string-array name="game_rows_values">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="game_columns_entries">
+        <item>5 COLUMNS</item>
+        <item>6 COLUMNS</item>
+        <item>7 COLUMNS</item>
+        <item>8 COLUMNS</item>
+        <item>9 COLUMNS</item>
+        <item>10 COLUMNS</item>
+    </string-array>
+    <string-array name="game_columns_values">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="back_color_entries">
+        <item>Gray</item>
+        <item>Red</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Magenta</item>
+        <item>Yellow</item>
+    </string-array>
+    <string-array name="back_color_values">
+        <item>GRAY</item>
+        <item>RED</item>
+        <item>GREEN</item>
+        <item>BLUE</item>
+        <item>CYAN</item>
+        <item>MAGENTA</item>
+        <item>YELLOW</item>
+    </string-array>
+</resources>

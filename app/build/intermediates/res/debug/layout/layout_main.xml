@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/game_word"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:height="56dp"
+        android:text="@string/EMPTY"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="36sp" />
+    
+    <ImageButton
+        android:id="@+id/retry1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#f0f0f0"
+        android:src="@drawable/ic_launcher" />
+
+    <GridLayout
+        android:id="@+id/grid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:columnCount="5"
+        android:rowCount="8" >
+
+    </GridLayout>
+
+</RelativeLayout><!-- From: file:/home/panaimin/WORK2/SpellingBird/app/src/main/res/layout/layout_main.xml -->

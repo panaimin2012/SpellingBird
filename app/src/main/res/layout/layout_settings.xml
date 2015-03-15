@@ -1,0 +1,48 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+	    android:defaultValue="true"
+	    android:key="PLAY_SOUND"
+	    android:summary="@string/play_sound_summary"
+	    android:title="@string/play_sound" />
+    
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="RETRY_SOUND"
+        android:summary="@string/retry_sound_summary"
+        android:title="@string/retry_sound" />
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="RETRY_DISPLAY"
+        android:summary="@string/retry_display_summary"
+        android:title="@string/retry_display" />
+    
+    <ListPreference
+        android:key="GAME_ROWS"
+        android:title="@string/grid_rows"
+        android:summary="@string/grid_rows_summary"
+        android:dialogTitle="@string/grid_rows"
+        android:entries="@array/game_rows_entries"
+        android:entryValues="@array/game_rows_values"
+        android:defaultValue="@string/grid_rows_default" />
+    
+    <ListPreference
+        android:key="GAME_COLUMNS"
+        android:title="@string/grid_columns"
+        android:summary="@string/grid_columns_summary"
+        android:dialogTitle="@string/grid_columns"
+        android:entries="@array/game_columns_entries"
+        android:entryValues="@array/game_columns_values"
+        android:defaultValue="@string/grid_columns_default" />
+    
+    <ListPreference
+        android:key="BACK_COLOR"
+        android:title="@string/back_color"
+        android:summary="@string/back_color_summary"
+        android:dialogTitle="@string/back_color"
+        android:entries="@array/back_color_entries"
+        android:entryValues="@array/back_color_values"
+        android:defaultValue="@string/back_color_default" />
+    
+</PreferenceScreen>

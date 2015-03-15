@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="/home/panaimin/WORK2/SpellingBird/app/src/main/assets"><file name="about.html" path="/home/panaimin/WORK2/SpellingBird/app/src/main/assets/about.html"/><file name="ic_book.png" path="/home/panaimin/WORK2/SpellingBird/app/src/main/assets/ic_book.png"/><file name="vocabulary" path="/home/panaimin/WORK2/SpellingBird/app/src/main/assets/vocabulary"/></source></dataSet><dataSet config="release"><source path="/home/panaimin/WORK2/SpellingBird/app/src/release/assets"/></dataSet></merger>

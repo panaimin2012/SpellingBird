@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.pan.spellingchick.MainActivity" >
+
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/about"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item 
+        android:id="@+id/action_book"
+        android:icon="@drawable/ic_book"
+        android:showAsAction="always"
+        android:title="@string/action_start"/>
+    <item 
+        android:id="@+id/action_score"
+        android:icon="@drawable/ic_score"
+        android:showAsAction="always"
+        android:title="@string/action_start"/>
+    
+</menu>
+<!-- From: file:/home/panaimin/WORK2/SpellingBird/app/src/main/res/menu/main.xml -->

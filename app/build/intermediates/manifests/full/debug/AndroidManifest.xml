@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pan.spellingbird"
+    android:versionCode="6"
+    android:versionName="1.6" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:name="com.pan.spellingbird.SpellingBirdApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.pan.spellingbird.SpellingActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.pan.spellingbird.BookSelector"
+            android:label="@string/title_activity_book" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.pan.spellingbird.SpellingActivity" />
+        </activity>
+        <activity
+            android:name="com.pan.spellingbird.Score"
+            android:label="@string/title_activity_score" >
+        </activity>
+        <activity
+            android:name="com.pan.spellingbird.DocActivity"
+            android:label="@string/about" >
+        </activity>
+        <activity
+            android:name="com.pan.spellingbird.SettingsActivity"
+            android:label="@string/action_settings" >
+        </activity>
+    </application>
+
+</manifest>

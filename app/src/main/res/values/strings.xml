@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <string name="app_name">SpellingBird</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_start">Start</string>
+    <string name="A">A</string>
+    <string name="EMPTY"></string>
+    <string name="title_activity_book">Book</string>
+    <string name="title_activity_score">Score</string>
+    <string name="retry">Retry</string>
+    <string name="about">About</string>
+    <string name="play_sound">Enable sound</string>
+    <string name="play_sound_summary">Enable sound to read word and characters</string>
+    <string name="retry_sound">Sound on retry</string>
+    <string name="retry_sound_summary">Play voice when retry button clicked</string>
+    <string name="retry_display">Display on retry</string>
+    <string name="retry_display_summary">Display word again when retry button clicked</string>
+    <string name="grid_columns_default">5</string>
+    <string name="grid_columns">Game columns</string>
+    <string name="grid_columns_summary">Columns of the character grid in the game</string>
+    <string name="grid_rows_default">8</string>
+    <string name="grid_rows">Game rows</string>
+    <string name="grid_rows_summary">Rows of the character grid in the game</string>
+    <string name="back_color_default">GRAY</string>
+    <string name="back_color">Colors</string>
+    <string name="back_color_summary">Background color of the characters</string>
+    
+</resources>
